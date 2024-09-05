@@ -12,6 +12,7 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.text.font.FontWeight
+import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import com.ariel.sculptingexampel23.ui.theme.SculptingExampel23Theme
@@ -33,13 +34,18 @@ class MainActivity : ComponentActivity() {
     }
 }
 
+// this is a comment
+
+/* this is also a comment */
+
 @Composable
 fun Greeting(name: String, modifier: Modifier = Modifier) {
     Text(
         text = "Hello $name!",
         modifier = modifier.padding(16.dp),
-        color = Color.Green,
+        color = Color.Red,
         fontSize = 20.sp,
         fontWeight = FontWeight.Bold
     )
 }
+
